@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and conditionals </title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+            <li>item-5</li>
+            <li>item-6</li>
+            <li>item-7</li>
+        </ul>
+    </div>
+    <script>
+        // var has a global scope
+        // var string1 = "This is string";
+        // var string1 = "This is  another string";
+        // console.log(string1);
+
+        // let is block level scope
+
+        //let a = "u";
+        //  {
+        //      let a = "u6";
+        //      console.log(a);
+        //  }
+        //     console.log(a);
+
+
+       // const a = "This cannot be changed";
+        //  a = "I want to change . Thia cannot be changed"   // We can not change const
+      //  console.log(a);
+
+      //  let age = 14;
+     //   if(age>18){
+      //      console.log("You can drive bike");
+      //  }
+      //  else if(age==2) {
+      //      console.log("You can drive aeroplane");
+     //   }
+     //   else if(age==10) {
+     //       console.log("You can drive boat");
+     //   }
+     //   else if(age==15) {
+     //       console.log("You can drive cycle");
+     //   }
+     //   else {
+      //      console.log("You can drive car");
+      //  }
+
+      const cups = 43;
+      switch (cups) {
+        case 4:
+            console.log("The Value of cups is 4");
+            break;
+
+            case 41:
+            console.log("The Value of cups is 41");
+            break;
+
+            case 42:
+            console.log("The Value of cups is 42");
+            break;
+
+            case 43:
+            console.log("The Value of cups is 43");
+            break;
+      
+        default:
+            console.log("The value of cups is none of the above");
+            break;
+      }
+        
+
+
+
+    </script>
+
+</body>
+
+</html>
